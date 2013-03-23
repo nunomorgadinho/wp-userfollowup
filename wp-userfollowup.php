@@ -135,7 +135,7 @@ if ( !class_exists( 'wp_userfollowup' ) ) {
 		 */
 		function overview() {
 
-			printf( __( '<p>You need to have a valid UserFollowUp tracking ID. Example: <strong>21</strong> is the tracking ID for the code <code>http://app.kissfollowup.com/21.js</code>', 'wp-userfollowup' ), 'http://app.UserFollowUp.com/' );
+			printf( __( '<p>You need to have a valid UserFollowUp tracking ID. Example: <strong>21</strong> is the tracking ID for the code <code>http://app.userfollowup.com/21.js</code>', 'wp-userfollowup' ), 'http://app.UserFollowUp.com/' );
 
 			_e( '<p>Please <strong>enter only the ID</strong> on the field below.</p>', 'wp-userfollowup' ) . '</p>';
 
@@ -234,7 +234,7 @@ if ( !class_exists( 'wp_userfollowup' ) ) {
 		 * 
 		 */ 
 		function add_code() {
-			echo "\n<script src='http://app.kissfollowup.com/".sanitize_text_field( $this->api_key ).".js'></script>";
+			echo "\n<script src='http://app.userfollowup.com/".sanitize_text_field( $this->api_key ).".js'></script>";
 		}
 
 

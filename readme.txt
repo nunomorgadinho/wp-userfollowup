@@ -32,13 +32,13 @@ UserFollowUp connects events triggered by your customers to automatic follow up 
 
 = Configuration =
 
-1. Visit the newly created entry for WP UserFollowUp on your dashboard's Settings menu
+1. Visit the newly created menu for WP UserFollowUp on your dashboard's Settings menu
 2. Enter your userfollowup tracking ID
 3. Save your settings
 
 == Frequently Asked Questions ==
 
-Please visit [UserFollowUp](http://kissfollowup.com) for more details.
+Please visit [UserFollowUp](http://userfollowup.com) for more details.
 
 == Changelog ==
 
